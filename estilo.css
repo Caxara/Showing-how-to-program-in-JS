@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(44, 129, 44);
+    width: auto;
+    height: auto;
+    
+}
+header{
+    text-align: center;
+    color: rgb(166, 170, 62);
+}
+#perguntaEresposta {
+    background-color: rgb(123, 160, 91);
+    width: 500px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.447);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#pergunta {
+    color: rgb(35, 103, 35);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.botões{
+    flex-direction: row;
+    align-items: center;
+}
+#botãoSim{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.27);
+    margin-bottom: 10px;
+    cursor: context-menu;
+}    
+#botãoNão{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.27);
+    margin-top: 10px;
+    cursor:help;
+}
+#res {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: -5px -5px 1px rgb(175, 173, 173);
+    border: 2px solid rgb(175, 173, 173);
+    text-align: center;
+}
+img {
+    width: 400px;
+    height: 400px;
+}
+footer{
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(156, 159, 73);
+}
