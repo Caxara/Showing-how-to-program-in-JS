@@ -6,7 +6,7 @@ function aceitar(){
     resposta.innerHTML += `É nóis \u{1F44c}`
     resposta.style.color = "green"
     imagem.setAttribute('src', '/img/snoop.jpg');
-    document.getElementById('res').appendChild(imagem);
+    document.getElementById('foto').appendChild(imagem);
 
 
 }
@@ -17,5 +17,5 @@ function negar(){
 
     resposta.innerHTML += `Que vacilo \u{1F44E}`
     imagem.setAttribute('src', '/img/snoosad.jpg');
-    document.getElementById('res').appendChild(imagem);
+    document.getElementById('foto').appendChild(imagem);
 }

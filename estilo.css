@@ -48,9 +48,9 @@ header{
     border: 2px solid rgb(175, 173, 173);
     text-align: center;
 }
-img {
-    width: 400px;
-    height: 400px;
+.foto {
+    width: 100px;
+    height: 100px;
 }
 footer{
     text-align: center;
