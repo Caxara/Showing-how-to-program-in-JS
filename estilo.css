@@ -9,15 +9,20 @@ header{
     color: rgb(166, 170, 62);
 }
 #perguntaEresposta {
-    background-color: rgb(123, 160, 91);
+    background-color: rgb(15, 22, 10);
     width: 500px;
     padding: 30px;
-    border-radius: 15px;
-    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.447);
+    border-radius:20px;
+    border: 2px solid black;
+    box-shadow: -3px -3px 1px rgba(0, 0, 0, 0.944);
     text-align: center;
     margin: auto;
     margin-bottom: 50px;
 }
+/*#perguntaEresposta:hover {
+    background-color: rgb(117, 51, 4);
+    cursor:progress;
+}*/
 
 #pergunta {
     color: rgb(35, 103, 35);
@@ -39,22 +44,22 @@ header{
     cursor:help;
 }
 #res {
-    background-color: black;
+    background-color: rgb(44, 129, 44);
     width: 500px;
     height: 500px;
     border-radius: 10px;
-    font-family:
+    font-family:Georgia, 'Times New Roman', Times, serif;
     margin: auto;
-    box-shadow: -5px -5px 1px rgb(175, 173, 173);
-    border: 2px solid rgb(175, 173, 173);
+    /*box-shadow: -5px -5px 1px rgb(175, 173, 173);
+    border: 2px solid rgb(175, 173, 173);*/
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content:center;
 }
  IMG {
-    width: 250px;
-    height: 300px;
+    width: 450px;
+    height: 500px;
     border-radius:20%;
     margin:auto;
     
