@@ -69,12 +69,12 @@ header{
 #botãoSim{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.481);
     margin-bottom: 10px;
-    cursor: context-menu;
+    cursor:progress;
 }    
 #botãoNão{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.481);
     margin-top: 10px;
-    cursor:help;
+    cursor:not-allowed;
 }
 #res {
     /*background-color: rgb(44, 129, 44);*/
