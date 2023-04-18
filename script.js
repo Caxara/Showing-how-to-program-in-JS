@@ -5,8 +5,7 @@ function aceitar(){
     let imagem = document.createElement('IMG');
  
     resposta.innerHTML += `É NóÓóóóÓiis \u{1F44c}`
-    resposta.style.color = 'black';
-    imagem.setAttribute('src', '/FUMARCOMDAY/img/snoop.jpg');
+    imagem.setAttribute('src', '/img/snoop.jpg');
     document.getElementById('res').appendChild(imagem);
 }
 
@@ -18,7 +17,7 @@ function negar(){
     let imagem = document.createElement('IMG')
     
     resposta.innerHTML += `Que vacilo affs \u{1F44E}`
-    resposta.style.color = 'black';
-    imagem.setAttribute('src', '/FUMARCOMDAY/img/snoosad.jpg');
+    
+    imagem.setAttribute('src', '/img/snoosad.jpg');
     document.getElementById('res').appendChild(imagem);
 }
