@@ -43,19 +43,20 @@ header{
     width: 500px;
     height: 500px;
     border-radius: 10px;
+    font-family:
     margin: auto;
     box-shadow: -5px -5px 1px rgb(175, 173, 173);
     border: 2px solid rgb(175, 173, 173);
     text-align: center;
-}
-#res {
-    width: 500px;
-    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
 }
  IMG {
-    width: 350px;
+    width: 250px;
     height: 300px;
-    -ms-flex-item-align: auto;
+    border-radius:20%;
+    margin:auto;
     
     
  }
