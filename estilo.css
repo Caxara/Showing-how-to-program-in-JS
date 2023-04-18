@@ -48,10 +48,17 @@ header{
     border: 2px solid rgb(175, 173, 173);
     text-align: center;
 }
-.foto {
-    width: 100px;
-    height: 100px;
+#res {
+    width: 500px;
+    height:500px;
 }
+ IMG {
+    width: 350px;
+    height: 300px;
+    -ms-flex-item-align: auto;
+    
+    
+ }
 footer{
     text-align: center;
     margin-top: 15px;
