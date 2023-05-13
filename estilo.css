@@ -1,4 +1,4 @@
-@keyframes bounce {
+ @keyframes bounce {
     0%, 50%, 100% {
         -webkit-transform: translateX(0);
         transform: translateX(0);
@@ -70,11 +70,16 @@ header{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.481);
     margin-bottom: 10px;
     cursor:progress;
-}    
+}
+
+/*CONFIGURAÇÃO DO BOTÃO "NÃO" // COLOCANDO EFEITO DE MOVIMENTO*/
 #botãoNão{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.481);
     margin-top: 10px;
     cursor:not-allowed;
+}
+#botãoNão:hover {
+    animation: bounce 1s;
 }
 #res {
     /*background-color: rgb(44, 129, 44);*/
