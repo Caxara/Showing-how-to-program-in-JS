@@ -97,7 +97,7 @@ header{
     flex-direction: column;
     justify-content:center;
 }
-IMG {
+  {
     width: 450px;
     height: 500px;
     border-radius:20%;
