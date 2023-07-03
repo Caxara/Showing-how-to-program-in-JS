@@ -70,6 +70,27 @@ header{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.481);
     margin-bottom: 10px;
     cursor:progress;
+
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -ms-border-radius:100px;
+    -o-webkit-border-radius:100px;
+
+    transition: all 0.5s ease-in-out;
+
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+}
+
+#botãoSim:hover {
+    color: rgb(255, 254, 254);
+    box-shadow: inset 0 0 35px yellow,
+                0 0 5px 0 yellow,
+                0 0 25px 0 yellow,
+                0 0 50px 0 yellow,
+                0 0 100px 0 yellow;
 }
 
 /*CONFIGURAÇÃO DO BOTÃO "NÃO" // COLOCANDO EFEITO DE MOVIMENTO*/
@@ -97,14 +118,14 @@ header{
     flex-direction: column;
     justify-content:center;
 }
-  {
+  /*{
     width: 450px;
     height: 500px;
     border-radius:20%;
     margin:auto;
     border: 2px solid rgb(254, 252, 252);
     box-shadow: 10px 10px 2px rgb(15, 22, 10);
-}
+}*/
 IMG:active{
     box-shadow: 10px 10px 1px rgb(230, 3, 3);
     position: relative;
