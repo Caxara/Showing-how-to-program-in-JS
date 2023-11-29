@@ -33,16 +33,40 @@ header{
     width: 500px;
     padding: 30px;
     border-radius:20px;
-    border: 2px solid black;
-    box-shadow: -3px -3px 1px rgba(0, 0, 0, 0.944);
+    /*border: 2px solid black;
+    box-shadow: -3px -3px 1px rgba(0, 0, 0, 0.944);*/
     text-align: center;
     margin: auto;
     margin-bottom: 50px;
 
     min-width: 280px;
     max-height: 800px;
+
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -ms-border-radius:100px;
+    -o-webkit-border-radius:100px;
+
+    transition: all 0.5s ease-in-out;
+
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+}
+
+#perguntaEresposta:hover {
+    color: rgb(245, 231, 231);
+    box-shadow: inset 0 0 35px rgb(4, 255, 0),
+                0 0 5px 0  rgb(4, 255, 0),
+                0 0 25px 0 rgb(4, 255, 0),
+                0 0 50px 0 rgb(4, 255, 0),
+                0 0 100px  rgb(4, 255, 0);
+}
+
+
     
-}    
+    
 /*#perguntaEresposta:hover {
     background-color: rgb(117, 51, 4);
     cursor:progress;
