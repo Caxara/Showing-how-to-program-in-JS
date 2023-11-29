@@ -15,7 +15,7 @@
 
 
 body {
-    background-color: black;
+    background-color: rgb(15, 22, 10);
     width: auto;
     height: auto;
 }
@@ -105,11 +105,11 @@ header{
 }
 #res {
     /*background-color: rgb(44, 129, 44);*/
-    background-color: rgb(12, 24, 12);
+    background-color: rgb(24, 21, 12);
     color: rgb(166, 170, 62);
-    width: 500px;
+    width: 450px;
     height: 500px;
-    border-radius: 10px;
+    border-radius: 25%;
     font-family: 'Sedgwick Ave Display', cursive;
     margin: auto;
     /*box-shadow: -5px -5px 1px rgb(175, 173, 173);
@@ -119,6 +119,15 @@ header{
     flex-direction: column;
     justify-content:center;
 }
+
+/*#res IMG {
+    width: 450px;
+    height: 500px;
+    border-radius:20%;
+    margin:auto;
+    border: 2px solid rgb(254, 252, 252);
+    box-shadow: 10px 10px 2px rgb(15, 22, 10);
+}*/
 IMG{
     width: 450px;
     height: 500px;
