@@ -17,9 +17,8 @@
 
 body {
     background-color: rgb(15, 22, 10);
-    width: auto;
-    height: auto;
-}
+    
+} 
 
 header{
     text-align: center;
@@ -39,6 +38,10 @@ header{
     text-align: center;
     margin: auto;
     margin-bottom: 50px;
+
+    min-width: 320px;
+    max-height: 800px;
+    
 }    
 /*#perguntaEresposta:hover {
     background-color: rgb(117, 51, 4);
@@ -149,9 +152,9 @@ IMG{
     margin:auto;
     border: 2px solid rgb(254, 252, 252);
     box-shadow: 10px 10px 2px rgb(15, 22, 10);
-}
 
-{-webkit-border-radius:100px;
+
+-webkit-border-radius:100px;
     -moz-border-radius:100px;
     -ms-border-radius:100px;
     -o-webkit-border-radius:100px;
