@@ -39,7 +39,7 @@ header{
     margin: auto;
     margin-bottom: 50px;
 
-    min-width: 320px;
+    min-width: 280px;
     max-height: 800px;
     
 }    
@@ -120,7 +120,8 @@ header{
     display: flex;
     flex-direction: column;
     justify-content:center;
-
+    min-width: 280px;
+    max-height: 800px;
     /*fazer efeito de neon
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
@@ -152,7 +153,7 @@ IMG{
     margin:auto;
     border: 2px solid rgb(254, 252, 252);
     box-shadow: 10px 10px 2px rgb(15, 22, 10);
-
+    
 
 -webkit-border-radius:100px;
     -moz-border-radius:100px;
