@@ -1,4 +1,5 @@
  /* faz o botao mexer*/
+
  @keyframes bounce {
     0%, 50%, 100% {
         -webkit-transform: translateX(0);
@@ -65,13 +66,6 @@ header{
 }
 
 
-    
-    
-/*#perguntaEresposta:hover {
-    background-color: rgb(117, 51, 4);
-    cursor:progress;
-}*/
-
 #pergunta{
     color: rgb(35, 103, 35);
     font-family: 'Sedgwick Ave Display', cursive;
@@ -94,6 +88,12 @@ header{
     flex-direction: row;
     align-items: center;
 }
+
+/*Aprendendo a aplicar pseudoelemento */
+.botões::first-letter{
+    font-size: 12px;
+}
+
 #botãoSim{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.481);
     margin-bottom: 10px;
@@ -113,6 +113,8 @@ header{
     -o-transition:all 0.5s ease-in-out;
 }
 
+/*Aprendendo a aplicar pseudoclasses */
+
 #botãoSim:hover {
     color: rgb(245, 231, 231);
     box-shadow: inset 0 0 35px rgb(4, 255, 0),
@@ -123,14 +125,19 @@ header{
 }
 
 /*CONFIGURAÇÃO DO BOTÃO "NÃO" // COLOCANDO EFEITO DE MOVIMENTO*/
+
 #botãoNão{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.481);
     margin-top: 10px;
     cursor:not-allowed;
 }
+
+/*Esse hover está ligado ao primeiro código da página "@keyframe" */
 #botãoNão:hover {
     animation: bounce 1s;
 }
+
+/*Div de onde aparecerá a imagem de resposta*/
 #res {
     /*background-color: rgb(44, 129, 44);*/
     background-color: rgb(24, 21, 12);
@@ -146,7 +153,10 @@ header{
     justify-content:center;
     min-width: 280px;
     max-height: 800px;
+
+
     /*fazer efeito de neon
+
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
     -ms-border-radius:100px;
@@ -192,6 +202,7 @@ IMG{
     -o-transition:all 0.5s ease-in-out;
 }
 
+/*Aprendendo aplicar pseudoclasses*/
 #res:hover {
     color: rgb(245, 231, 231);
     box-shadow: inset 0 0 35px rgb(0, 166, 255),
@@ -205,9 +216,7 @@ IMG:active{
     position: relative;
     top: 1px;
 }
-/*IMG:hover{
-    animation: bounce 1s;
-}*/
+
 footer{
     text-align: center;
     margin-top: 15px;
