@@ -211,11 +211,11 @@ IMG{
                 0 0 50px 0 rgb(0, 166, 255),
                 0 0 100px  rgb(0, 166, 255);
 }
-IMG:active{
+/*IMG:active{
     box-shadow: 10px 10px 1px rgb(14, 227, 247);
     position: relative;
     top: 1px;
-}
+}*/
 
 footer{
     text-align: center;
