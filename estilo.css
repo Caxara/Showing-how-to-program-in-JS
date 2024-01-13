@@ -226,6 +226,7 @@ IMG{
 footer{
     text-align: center;
     margin-top: 15px;
+    margin: auto;
     color: rgb(156, 159, 73);
     font-family: 'Sedgwick Ave Display', cursive;
     font-size: 20px;
